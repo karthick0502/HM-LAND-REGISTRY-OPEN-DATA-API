@@ -1,0 +1,36 @@
+# Ignore Python bytecode files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore virtual environment
+venv/
+venv-HMLandRegistry/
+env/
+.env/
+
+# Ignore macOS system files
+.DS_Store
+
+# Ignore editor settings (VS Code, etc.)
+.vscode/
+
+# Ignore log files
+*.log
+
+# Ignore temporary files
+*.swp
+*~
+.idea/
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Ignore csv and other txt files
+*.csv
+*.txt
+*.zip
+
+
+submission/
