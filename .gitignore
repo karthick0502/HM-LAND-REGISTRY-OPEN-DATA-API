@@ -29,7 +29,6 @@ env/
 
 # Ignore csv and other txt files
 *.csv
-*.txt
 *.zip
 
 
