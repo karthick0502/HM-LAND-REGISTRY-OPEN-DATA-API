@@ -95,7 +95,8 @@ docker exec -it HM_LAND_DB psql -U hm_land -d price_paid_data -f /db_schema.sql
 
 This command will run your schema into the database.
 
-```bash
+```
+docker cp db_insert.sql HM_LAND_DB:/db_insert.sql
 docker exec -it HM_LAND_DB psql -U hm_land -d price_paid_data -f /db_insert.sql
 ```
 
