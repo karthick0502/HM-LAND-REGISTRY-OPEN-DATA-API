@@ -165,7 +165,7 @@ This project involves building a comprehensive data pipeline, transforming raw p
 ## **How to Run the Project**
 
 ### 1. **Set Up Docker**  
-   - **Install Docker**: Make sure Docker is installed on your machine.
+   - **Install Docker**: Make sure Docker is installed on your machine and server is up and running.
    - **Database Setup**: Use the `docker-db-setup.md` file to set up **PostgreSQL** and **pgAdmin4** Docker containers. This guide will walk you through pulling the necessary Docker images and running the containers for the database setup.
 ## **Important note: Create a folder called 'output' where your main.py file exists**
 ### 2. **Run `main.py` - Complete Workflow from Start to End**
